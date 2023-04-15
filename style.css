@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 500px;
+    width: 850px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.yellow{
+    background-color:  hsl(31, 77%, 52%);
+    position: relative;
+}
+
+.cyan{
+    background-color:  hsl(184, 100%, 22%);
+    position: relative;
+}
+.darkgreen{
+    background-color:  hsl(179, 100%, 13%);
+    position: relative;
+}
+.box article{
+    margin: 100px 20px;
+}
+.box picture{
+    position: absolute;
+    margin: 40px 40px;
+}
+.box  article h3{
+    font-family: 'Big Shoulders Display' ,cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    margin: 18px 20px;
+}
+.box article p{
+    position: absolute;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    margin: 95px 20px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.box a button{
+    margin: 300px 65px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 0px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.yellow button{
+    color: hsl(31, 77%, 52%);
+}
+.cyan button{
+    color: hsl(184, 100%, 22%);
+}
+.darkgreen button{
+    color: hsl(179, 100%, 13%);
+}
+.yellow a button:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+    border: 2px solid #fff;
+}
+.cyan a button:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+    border: 2px solid #fff;
+}
+.darkgreen a button:hover{
+    cursor: pointer;
+    background-color:  hsl(179, 100%, 13%);
+    color: #fff;
+    border: 2px solid #fff;
+
+}
